@@ -5,7 +5,6 @@ using System.Collections.Generic;
 namespace ProceduralDungeon
 {
 	[RequireComponent (typeof(Dungeon))]
-	[RequireComponent (typeof(EnvironmentBuilder))]
 	[RequireComponent (typeof(DungeonTexturePack))]
 	public class Director : MonoBehaviour
 	{
